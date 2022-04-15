@@ -1,0 +1,30 @@
+.footer{
+	display: flex;
+	align-items: center;
+	button{
+		width:318px ;
+		height: 69.7px;
+		background: linear-gradient(90deg, #5C5C5C 0%, #000000 102.37%);
+		border-radius: 127px;
+		font-family: 'GT Walsheim Pro';
+		font-style: normal;
+		font-weight: 500;
+		font-size: 28px;
+		line-height: 32px;
+		color: #FFFFFF;
+	}
+	.info{
+		display: flex;
+		grid-gap: 147px;
+		margin-left: 50px;
+		p{
+			font-family: 'GT Walsheim Pro';
+			font-style: italic;
+			font-weight: 700;
+			font-size: 51px;
+			line-height: 58px;
+			margin: 0;
+			color: #CBCBCB;
+		}
+	}
+}

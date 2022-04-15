@@ -1,0 +1,44 @@
+.header {
+  display: flex;
+  align-items: center;
+  .logo {
+    width: 130px;
+    height: 69px;
+    margin-right: 190px;
+  }
+  input {
+    width: 1017px;
+    height: 82px;
+    border-radius: 1271px;
+    background: #f5f5f5;
+    border: 2.77291px solid #dddddd;
+    font-size: 30px;
+    padding: 24px 0 24px 63px;
+  }
+  .btns {
+    display: flex;
+    grid-gap: 59px;
+    margin: 0 110px;
+    button {
+      background: none;
+      border: none;
+      padding: 0;
+      img {
+        width: 39px;
+        height: 39px;
+      }
+    }
+  }
+  .download {
+    width: 280px;
+    height: 69.7px;
+    background: linear-gradient(90deg, #5c5c5c 0%, #000000 102.37%);
+    border-radius: 127px;
+    font-family: "GT Walsheim Pro";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 27.9816px;
+    line-height: 32px;
+    color: #ffffff;
+  }
+}
